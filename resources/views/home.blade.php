@@ -43,7 +43,9 @@
             <li><a href="{{ route('about') }}">About</a></li>
         </ul>
     </nav>
+
     <p>Pagina di Benvenuto!</p>
+
 </body>
 
 </html>

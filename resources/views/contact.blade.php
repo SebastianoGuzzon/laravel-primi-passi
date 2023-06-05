@@ -42,7 +42,8 @@
             <li><a href="{{ route('about') }}">About</a></li>
         </ul>
     </nav>
-    <p>Come contattarci</p>
+
+    <p>Come contattarci!</p>
 
 </body>
 
