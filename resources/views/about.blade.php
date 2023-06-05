@@ -8,7 +8,8 @@
     <title>About</title>
     <style>
         body {
-            background-color: lightgreen;
+            background-image: url('https://unsplash.com/photos/1K9T5YiZ2WU/download?force=true');
+            background-size: cover;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -17,8 +18,13 @@
             margin: 0;
         }
 
+        p {
+            color: whitesmoke;
+            font-size: 2rem;
+        }
+
         h1 {
-            color: darkgreen;
+            color: whitesmoke;
         }
 
         nav ul {
@@ -29,6 +35,12 @@
         nav ul li {
             display: inline;
             margin-right: 10px;
+            font-size: 2rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: whitesmoke;
         }
     </style>
 </head>

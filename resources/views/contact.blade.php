@@ -8,7 +8,8 @@
     <title>Contact</title>
     <style>
         body {
-            background-color: lightcoral;
+            background-image: url('https://st4.depositphotos.com/1001951/22546/i/450/depositphotos_225466718-stock-photo-old-friends-having-fun-and.jpg');
+            background-size: cover;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -17,8 +18,13 @@
             margin: 0;
         }
 
+        p {
+            color: whitesmoke;
+            font-size: 2rem;
+        }
+
         h1 {
-            color: darkred;
+            color: whitesmoke;
         }
 
         nav ul {
@@ -29,6 +35,12 @@
         nav ul li {
             display: inline;
             margin-right: 10px;
+            font-size: 2rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: whitesmoke;
         }
     </style>
 </head>

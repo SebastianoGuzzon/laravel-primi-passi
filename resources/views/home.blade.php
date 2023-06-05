@@ -8,7 +8,8 @@
     <title>{{ $title }}</title>
     <style>
         body {
-            background-color: lightblue;
+            background-image: url('https://unsplash.com/photos/C8VWyZhcIIU/download?force=true');
+            background-size: cover;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -17,8 +18,13 @@
             margin: 0;
         }
 
+        p {
+            color: whitesmoke;
+            font-size: 2rem;
+        }
+
         h1 {
-            color: navy;
+            color: whitesmoke;
         }
 
         nav ul {
@@ -29,6 +35,12 @@
         nav ul li {
             display: inline;
             margin-right: 10px;
+            font-size: 2rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: whitesmoke;
         }
     </style>
 </head>
@@ -45,6 +57,8 @@
     </nav>
 
     <p>Pagina di Benvenuto!</p>
+
+
 
 </body>
 
