@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{ $title }}</title>
+    <title>About</title>
     <style>
         body {
-            background-color: lightblue;
+            background-color: lightgreen;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -18,7 +18,7 @@
         }
 
         h1 {
-            color: navy;
+            color: darkgreen;
         }
 
         nav ul {
@@ -34,8 +34,7 @@
 </head>
 
 <body>
-    <h1>{{ $body }}</h1>
-
+    <h1> About </h1>
     <nav>
         <ul>
             <li><a href="{{ route('home') }}">Home</a></li>
@@ -43,6 +42,7 @@
             <li><a href="{{ route('about') }}">About</a></li>
         </ul>
     </nav>
+
 
 </body>
 

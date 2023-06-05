@@ -11,7 +11,7 @@ Route::get('/', function () {
         'body' => 'Hello World',
     ];
     return view('home', $data);
-});
+})->name('home');
 
 
 // BONUS Creo nuove pagine about e contact
